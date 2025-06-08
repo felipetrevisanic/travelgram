@@ -10,3 +10,15 @@ main img {
     height: 286px;
     object-fit: cover;
 }
+
+@media (width < 80em) {
+    main {
+        padding-block: 1rem;
+        gap: 1rem;
+
+        & img {
+            width: 100%;
+            height: initial;
+        }
+    }
+}
