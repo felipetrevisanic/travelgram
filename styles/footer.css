@@ -8,3 +8,22 @@ footer{
 footer span:nth-child(1){
     margin-right: auto;
 }
+
+@media (width < 80em) {
+    footer {
+        flex-wrap: wrap;
+        gap: 1rem;
+        padding-block: 1rem;
+        justify-content: space-around;
+    }
+
+    
+    footer span:nth-child(1){
+        flex: 1 1 100%;
+        text-align: center;
+    }
+    
+    footer span:not(span:nth-child(1)){
+        margin: auto;
+    }
+}
