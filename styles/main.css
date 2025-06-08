@@ -1,8 +1,8 @@
 main {
     display: flex;
     flex-wrap: wrap;
-    gap: 24px;
-    padding-block: 24px;
+    gap: 1.5rem;
+    padding-block: 1.5rem;
 }
 
 main img {
